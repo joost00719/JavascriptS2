@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Live temperaturen</title>
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="script.js"></script>
+    <style>
+        li {
+            display: inline;
+        }
+
+        #buttons {
+            position: absolute;
+            top: 560px;
+        }
+    </style>
+</head>
+<body>
+
+<div style="position: absolute">
+    <h1>Live temperaturen</h1>
+    <p>Van de steden:</p>
+    <div id="stedenList">
+        <ol>
+        </ol>
+    </div>
+    <div id="buttons">
+        <button id="updateTemperatures" onclick="forceReload()" ">Force update!</button>
+        <button id="reload" onclick="location.reload()">Reload</button>
+        <br/>
+        <input type="text" id="customCity" onkeypress="key()"> </input>
+        <button id="addCity" onclick="addCity()">Custom</button>
+    </div>
+</div>
+<img src="images/Kaart_NL.gif" style="max-width: 50%">
+
+</body>
+</html>

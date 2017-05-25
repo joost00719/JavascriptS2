@@ -1,0 +1,94 @@
+body {
+    font-family: arial;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+article {
+    float: left;
+    width: 75%;
+    position: relative;
+}
+article h2 {
+    border: 1px #000 dashed;
+    min-height: 1.5em;
+}
+article p {
+    border: 1px #000 dashed;
+    min-height: 100px;
+}
+label {
+    width: 100%;
+    display: block;
+    margin-top:10px;
+}
+#MessageContent, #QuestionContent {
+    display: none;
+}
+#advertisement {
+    padding-top: 100%;
+    width: 100%;
+    border: thin #000000 solid;
+    position: relative;
+    background-color: #66b6df;
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+}
+#kw1cLogo {
+    position: absolute;
+    top:0%;
+    left:0%;
+}
+.content {
+    width: 100%;
+}
+.content .contentRight {
+    float: right;
+    width: 20%;
+}
+.content .contentRight input[type="text"], .content .contentRight textarea{
+    width: 100%;
+    box-sizing: border-box;
+}
+.content input[type="submit"] {
+    width: 50%;
+    margin-top: 20px;
+}
+header {
+    position: relative;
+}
+header h1 {
+    text-align: center;
+    border-bottom: dashed #a4aaaa thin;
+}
+header ul {
+    width: 100%;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+header ul li {
+    width: 20%;
+    border: solid black 1px;
+    display: block;
+    float:left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+header .weatherDiv {
+    position: absolute;
+    right:10%;
+    top: 0px;
+}
+small{
+    font-style: italic;
+}
+.red{
+    color: red;
+}
