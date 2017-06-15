@@ -30,9 +30,8 @@
                 Dit jaar: {{ currentYear }}
             </p>
 
-            <button ng-click="next(dag)">next day</button>
-            <button ng-click="next(maand)">next month</button>
-            <button ng-click="next(year)">next year</button>
+            <button ng-click="next()">next month</button>
+            <button ng-click="previous()">Previous month</button>
         </div>
         <div ng-controller="LoginController">
 
